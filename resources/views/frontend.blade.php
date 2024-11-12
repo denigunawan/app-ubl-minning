@@ -9,8 +9,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -28,56 +28,53 @@
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
-<body class="index-page">
+<body class="index-page" style="background-color: black">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="" class="rounded">
         <h1 class="sitename">EMining</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="{{route('/')}}" class="active">Home</a></li>
-        </ul>
+
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
     </div>
   </header>
 
-  <main class="main">
+  <main class="main" style="background-color: black">
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
-      <!-- <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
 
       <div id="hero-carousel" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
         <div class="container position-relative">
 
         <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2>Selamat Datang di EMining Analytics</h2>
-          <p>Optimalkan bisnis eCommerce Anda dengan wawasan mendalam dan analitik canggih. Tingkatkan keputusan bisnis dengan data real-time yang membantu Anda memahami pelanggan dan tren pasar.</p>
-          <a href="{{route('input_file')}}" class="btn-get-started">Mulai Sekarang</a>
+        <div class="carousel-container" style="color: white">
+          <h2 style="color: white">Selamat Datang di EMining Analytics</h2>
+          <p style="color: white" class="shadow">Optimalkan bisnis eCommerce Anda dengan wawasan mendalam dan analitik canggih. Tingkatkan keputusan bisnis dengan data real-time yang membantu Anda memahami pelanggan dan tren pasar.</p>
+          <a href="#" class="btn-get-started">Mulai Sekarang</a>
         </div>
       </div><!-- End Carousel Item -->
 
       <div class="carousel-item">
-        <div class="carousel-container">
-          <h2>Jadikan Data Anda Lebih Berarti</h2>
-          <p>Dengan EMining, Anda tidak hanya mendapatkan data. Kami membantu Anda menganalisis pola pembelian, prediksi tren, dan menemukan peluang baru yang dapat meningkatkan penjualan eCommerce Anda.</p>
-          <a href="{{route('input_file')}}" class="btn-get-started">Pelajari Lebih Lanjut</a>
+        <div class="carousel-container" style="color: white">
+          <h2 style="color: white">Jadikan Data Anda Lebih Berarti</h2>
+          <p style="color: white">Dengan EMining, Anda tidak hanya mendapatkan data. Kami membantu Anda menganalisis pola pembelian, prediksi tren, dan menemukan peluang baru yang dapat meningkatkan penjualan eCommerce Anda.</p>
+           <a href="#" class="btn-get-started">Pelajari Lebih Lanjut</a>
         </div>
       </div><!-- End Carousel Item -->
 
       <div class="carousel-item">
-        <div class="carousel-container">
+        <div class="carousel-container" style="color: white">
           <h2>Analitik untuk Keputusan Bisnis yang Lebih Cerdas</h2>
           <p>Ingin meningkatkan konversi atau memahami perilaku pelanggan? Dapatkan data real-time yang membantu Anda membuat keputusan bisnis yang lebih cerdas dan meningkatkan profitabilitas toko online Anda.</p>
-          <a href="{{route('input_file')}}" class="btn-get-started">Coba Sekarang</a>
+            <a href="#" class="btn-get-started">Coba Sekarang</a>
         </div>
       </div><!-- End Carousel Item -->
           <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
@@ -97,9 +94,9 @@
     </section><!-- /Hero Section -->
   </main>
 
-  <footer id="footer" class="footer ">
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Tugas Kelompok X</strong> <span><br>Apps Minning Analytic<hr></span></p>
+  <footer id="footer" class="footer" style="background-color: black">
+    <div class="container copyright text-center mt-4" style="color: white">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Deni Gunawan</strong> <span><br>Apps Minning Analytic<hr></span></p>
       <div class="credits">
         Designed by <a href="#">Tugas Kelompok Penambangan Data - XG - MKOM</a>
       </div>

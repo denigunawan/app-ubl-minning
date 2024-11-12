@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {return view('frontend');});
+Route::get('/', function () {return view('frontend');})->name('/');
+
 Route::get('/emining/tentang', function(){return view('tentang-emining');})->name('tentang-emining');
 Route::get('/emining/analytic', function(){return view('anayltic');})->name('analytic');
 
