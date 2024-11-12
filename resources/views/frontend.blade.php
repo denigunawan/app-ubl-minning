@@ -39,30 +39,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="team.html">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="{{route('/')}}" class="active">Home</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -80,30 +57,29 @@
 
         <div class="container position-relative">
 
-          <div class="carousel-item active">
-            <div class="carousel-container">
-              <h2>Welcome to Moderna</h2>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="#about" class="btn-get-started">Read More</a>
-            </div>
-          </div><!-- End Carousel Item -->
+        <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2>Selamat Datang di EMining Analytics</h2>
+          <p>Optimalkan bisnis eCommerce Anda dengan wawasan mendalam dan analitik canggih. Tingkatkan keputusan bisnis dengan data real-time yang membantu Anda memahami pelanggan dan tren pasar.</p>
+          <a href="{{route('input_file')}}" class="btn-get-started">Mulai Sekarang</a>
+        </div>
+      </div><!-- End Carousel Item -->
 
-          <div class="carousel-item">
-            <div class="carousel-container">
-              <h2>Lorem Ipsum Dolor</h2>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="#about" class="btn-get-started">Read More</a>
-            </div>
-          </div><!-- End Carousel Item -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2>Jadikan Data Anda Lebih Berarti</h2>
+          <p>Dengan EMining, Anda tidak hanya mendapatkan data. Kami membantu Anda menganalisis pola pembelian, prediksi tren, dan menemukan peluang baru yang dapat meningkatkan penjualan eCommerce Anda.</p>
+          <a href="{{route('input_file')}}" class="btn-get-started">Pelajari Lebih Lanjut</a>
+        </div>
+      </div><!-- End Carousel Item -->
 
-          <div class="carousel-item">
-            <div class="carousel-container">
-              <h2>Sequi ea ut et est quaerat</h2>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-              <a href="#about" class="btn-get-started">Read More</a>
-            </div>
-          </div><!-- End Carousel Item -->
-
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2>Analitik untuk Keputusan Bisnis yang Lebih Cerdas</h2>
+          <p>Ingin meningkatkan konversi atau memahami perilaku pelanggan? Dapatkan data real-time yang membantu Anda membuat keputusan bisnis yang lebih cerdas dan meningkatkan profitabilitas toko online Anda.</p>
+          <a href="{{route('input_file')}}" class="btn-get-started">Coba Sekarang</a>
+        </div>
+      </div><!-- End Carousel Item -->
           <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
           </a>
@@ -123,13 +99,9 @@
 
   <footer id="footer" class="footer ">
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Moderna</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Tugas Kelompok X</strong> <span><br>Apps Minning Analytic<hr></span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="#">Tugas Kelompok Penambangan Data - XG - MKOM</a>
       </div>
     </div>
 
