@@ -1,348 +1,215 @@
-@include('layouts.head')
+    @include('layouts.head')
 
-<body class="about-page">
-@include('layouts.header')
+    <body class="about-page">
+        @include('layouts.header')
 
-  <main class="main">
+        <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title dark-background">
-      <div class="container position-relative">
-        <h1>About</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">About</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
-          </div>
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section light-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Our Skills</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row skills-content skills-animation">
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>PHP</span> <i class="val">80%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>WordPress/CMS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Skills Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            <!-- Page Title -->
+            <div class="page-title dark-background">
+                <div class="container position-relative">
+                    <h1>Tentang EMining</h1>
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+            </div><!-- End Page Title -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            <!-- About Section -->
+            <section id="about" class="about section">
+
+                <div class="container">
+
+                    <div class="row gy-4">
+                        <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+                            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8"
+                                class="glightbox pulsating-play-btn"></a>
+                        </div>
+                        <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+                            <h3>Pengelolaan Data Mining dengan EMining Analytic</h3>
+                            <p class="fst-italic">
+                                EMining Analytic adalah aplikasi yang dirancang untuk mengelola dan menganalisis data
+                                menggunakan berbagai metode machine learning. Aplikasi ini mempermudah pengguna dalam
+                                mengekstrak nilai dari data yang kompleks.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check2-all"></i> <span>Memfasilitasi pemrosesan data secara efisien
+                                        dengan teknologi machine learning.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Dilengkapi dengan beragam metode seperti
+                                        regresi, klasifikasi, dan klasterisasi untuk analisis yang akurat.</span></li>
+                                <li><i class="bi bi-check2-all"></i> <span>Memberikan hasil analisis yang mudah dipahami
+                                        untuk mendukung keputusan bisnis.</span></li>
+                            </ul>
+                            <p>
+                                Aplikasi ini mendukung proses pengolahan data secara terstruktur dan membantu dalam
+                                menghasilkan wawasan yang bernilai bagi berbagai bidang industri.
+                            </p>
+                        </div>
+                    </div>
+
+            </section><!-- /About Section -->
+
+            <!-- Stats Section -->
+            <section id="stats" class="stats section light-background">
+
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stats-item text-center w-100 h-100">
+                                <span data-purecounter-start="0" data-purecounter-end="232"
+                                    data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Klien</p>
+                            </div>
+                        </div><!-- End Stats Item -->
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stats-item text-center w-100 h-100">
+                                <span data-purecounter-start="0" data-purecounter-end="521"
+                                    data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Proyek</p>
+                            </div>
+                        </div><!-- End Stats Item -->
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stats-item text-center w-100 h-100">
+                                <span data-purecounter-start="0" data-purecounter-end="1453"
+                                    data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Jam Dukungan</p>
+                            </div>
+                        </div><!-- End Stats Item -->
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stats-item text-center w-100 h-100">
+                                <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Pekerja</p>
+                            </div>
+                        </div><!-- End Stats Item -->
+
+                    </div>
+
                 </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+            </section><!-- /Stats Section -->
+            <section id="skills" class="skills section">
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>Keahlian Kami</h2>
+                    <p>Menguasai berbagai teknik machine learning untuk menghasilkan data yang bernilai</p>
+                </div><!-- End Section Title -->
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+                <div class="container" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row gy-4">
+                        <!-- Machine Learning Skill Cards -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card skill-card h-100">
+                                <div class="card-body text-center">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2921/2921825.png" alt="Regresi Linear Icon" class="img-fluid mb-3" style="width: 60px;">
+                                    <h5 class="card-title">Regresi Linear</h5>
+                                    <p class="card-text">Efektivitas: 95%</p>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                                 aria-valuemax="100" style="width: 95%;">95%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card skill-card h-100">
+                                <div class="card-body text-center">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Klasifikasi Icon" class="img-fluid mb-3" style="width: 60px;">
+                                    <h5 class="card-title">Klasifikasi</h5>
+                                    <p class="card-text">Efektivitas: 90%</p>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                                 aria-valuemax="100" style="width: 90%;">90%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card skill-card h-100">
+                                <div class="card-body text-center">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995573.png" alt="Clustering Icon" class="img-fluid mb-3" style="width: 60px;">
+                                    <h5 class="card-title">Clustering</h5>
+                                    <p class="card-text">Efektivitas: 85%</p>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                                 aria-valuemax="100" style="width: 85%;">85%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-      </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card skill-card h-100">
+                                <div class="card-body text-center">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/190/190411.png" alt="Decision Tree Icon" class="img-fluid mb-3" style="width: 60px;">
+                                    <h5 class="card-title">Decision Tree</h5>
+                                    <p class="card-text">Efektivitas: 80%</p>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                                 aria-valuemax="100" style="width: 80%;">80%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-    </section><!-- /Testimonials Section -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card skill-card h-100">
+                                <div class="card-body text-center">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/2933/2933947.png" alt="Naive Bayes Icon" class="img-fluid mb-3" style="width: 60px;">
+                                    <h5 class="card-title">Naive Bayes</h5>
+                                    <p class="card-text">Efektivitas: 75%</p>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                                 aria-valuemax="100" style="width: 75%;">75%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-  </main>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card skill-card h-100">
+                                <div class="card-body text-center">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1006/1006541.png" alt="Neural Networks Icon" class="img-fluid mb-3" style="width: 60px;">
+                                    <h5 class="card-title">Neural Networks</h5>
+                                    <p class="card-text">Efektivitas: 70%</p>
+                                    <div class="progress-bar-wrap">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                                 aria-valuemax="100" style="width: 70%;">70%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-@include('layouts.footer')
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+                    </div><!-- End Row -->
+                </div><!-- End Container -->
+            </section><!-- /Skills Section -->
+        </main>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+        @include('layouts.footer')
+        <!-- Scroll Top -->
+        <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+                class="bi bi-arrow-up-short"></i></a>
 
-@include('layouts.script')
-</body>
+        <!-- Preloader -->
+        <div id="preloader"></div>
 
-</html>
+        @include('layouts.script')
+    </body>
+
+    </html>
